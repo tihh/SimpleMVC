@@ -1,0 +1,14 @@
+{
+	"name": "tihh/simple-mvc",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tihh/simple-router"
+        }
+    ],
+    "require": {
+        "twig/twig" : "~1.0",
+        "tracy/tracy": "~2.4",
+        "simple-router" : "*"
+    }
+}
