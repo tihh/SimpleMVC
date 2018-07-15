@@ -2,10 +2,13 @@
 	"name": "tihh/simple-mvc",
 	"repositories": [
 		{
-			"type": "vcs",
-			"url": "https://github.com/tihh/simple-router"
+		"type": "vcs",
+		"url": "https://github.com/tihh/simple-router"
 		}
     ],
+	"autoload": {
+        "psr-4": {"Engine\\": "/"}
+    }
     "require": {
         "twig/twig" : "~1.0",
         "tracy/tracy": "~2.4",
