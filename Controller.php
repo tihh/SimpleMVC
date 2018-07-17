@@ -11,10 +11,10 @@ use Repository;
 class Controller {
 
     protected $_defaultAction = 'index';
-
+    private $_templateEngine;
+    private $_request;
     public function __construct() {
         $this->_templateEngine = new TwigEngine();
-        $this->_mainRepository = new  Repository\Main();
         $this->_request = new Request();
     }
 
